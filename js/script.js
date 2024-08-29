@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // window.addEventListener("resize", handleResize);
+  window.addEventListener("resize", handleResize);
   handleResize(); // Initial setup
 
   // Toggle the hamburger menu
