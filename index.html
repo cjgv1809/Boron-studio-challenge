@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <title>Boron Studio</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <svg
+        width="231"
+        height="36"
+        viewBox="0 0 231 36"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="logo"
+      >
+        <g clip-path="url(#clip0_1_237)">
+          <path
+            d="M57.3109 34.2139C55.2474 33.316 53.3705 32.0385 51.7777 30.4477C50.1849 28.8533 48.9041 26.9749 48.0012 24.9092C47.0857 22.7454 46.6152 20.4191 46.6179 18.0692C46.6152 15.7238 47.0857 13.4021 48.0012 11.2431C48.9024 9.17648 50.1834 7.29773 51.7777 5.70464C53.3632 4.10857 55.2421 2.83443 57.3109 1.95234C59.4662 1.03039 61.7868 0.559205 64.1306 0.567724C66.4745 0.557639 68.7957 1.02889 70.9504 1.95234C73.0167 2.83898 74.8948 4.11257 76.4837 5.70464C78.0711 7.29466 79.339 9.1748 80.2186 11.2431C81.1397 13.4003 81.6104 15.7233 81.6019 18.0692C81.6107 20.4197 81.14 22.7473 80.2186 24.9092C79.3357 26.9757 78.0683 28.8553 76.4837 30.4477C74.8882 32.0353 73.0119 33.3123 70.9504 34.2139C68.7938 35.1314 66.4739 35.6024 64.1306 35.5985C61.7874 35.6012 59.4679 35.1303 57.3109 34.2139Z"
+            fill="#1A1A1A"
+          />
+          <path
+            d="M115.922 19.3708C118.395 19.3501 120.761 18.3552 122.507 16.6016C123.413 15.725 124.127 14.669 124.604 13.5009C125.08 12.3328 125.308 11.0781 125.273 9.81695C125.281 7.27057 124.287 4.8235 122.507 3.00466C121.658 2.09762 120.637 1.36848 119.505 0.859793C118.372 0.351104 117.149 0.0730024 115.908 0.0415649H103.334C103.099 0.0415649 103.818 0.678495 103.818 0.913879V35.28C103.818 35.5154 103.099 36.0416 103.334 36.0416H124.222C124.346 36.0416 124.443 35.7785 124.512 35.6677C124.546 35.6013 124.564 35.5277 124.564 35.4531C124.564 35.3784 124.546 35.3049 124.512 35.2385L115.922 19.3708Z"
+            fill="#1A1A1A"
+          />
+          <path
+            d="M156.301 34.2139C154.239 33.3135 152.362 32.0363 150.768 30.4477C149.175 28.8534 147.894 26.9749 146.991 24.9093C146.076 22.7455 145.605 20.4191 145.608 18.0693C145.605 15.7239 146.076 13.4021 146.991 11.2431C147.892 9.1765 149.173 7.29776 150.768 5.70466C152.356 4.11154 154.234 2.8378 156.301 1.95236C158.456 1.03042 160.777 0.55923 163.121 0.567749C165.469 0.558901 167.794 1.03006 169.954 1.95236C172.021 2.8378 173.9 4.11154 175.488 5.70466C177.08 7.2909 178.348 9.17199 179.223 11.2431C180.15 13.3982 180.622 15.7226 180.606 18.0693C180.621 20.4204 180.15 22.7493 179.223 24.9093C178.345 26.9786 177.077 28.859 175.488 30.4477C173.893 32.0363 172.016 33.3135 169.954 34.2139C167.792 35.1303 165.468 35.6012 163.121 35.5985C160.778 35.6012 158.458 35.1303 156.301 34.2139Z"
+            fill="#1A1A1A"
+          />
+          <path
+            d="M14.2759 35.7507H0V0.761475H14.2344C20.9711 0.761475 25.4115 4.49996 25.4115 9.95534C25.4019 11.5556 24.9308 13.1191 24.0547 14.4578C23.1786 15.7965 21.935 16.8534 20.4731 17.5015C22.2387 18.1089 23.775 19.2451 24.8737 20.756C25.9724 22.2668 26.5802 24.0793 26.615 25.9477C26.615 31.7908 21.7182 35.7507 14.2759 35.7507Z"
+            fill="#1A1A1A"
+          />
+          <path
+            d="M8.94995 29.3816H12.851C15.6176 29.3816 17.2085 27.8446 17.2085 25.8092C17.2085 23.7739 15.5347 22.2369 13.0585 22.2369H9.19902V9.51233H13.1276"
+            stroke="#F2F2F2"
+            stroke-width="0.25"
+            stroke-miterlimit="10"
+          />
+          <path
+            d="M230.087 10.1077C229.449 8.17644 228.374 6.41856 226.947 4.9708C225.525 3.50315 223.789 2.37656 221.87 1.67541C220.392 1.12105 218.828 0.835053 217.25 0.830811C215.654 0.835235 214.071 1.12113 212.574 1.67541C210.643 2.37573 208.893 3.502 207.456 4.9708C206.028 6.41856 204.954 8.17644 204.316 10.1077C202.933 14.1231 203.486 18.4985 203.486 22.6662V34.6154C203.486 34.837 203.486 35.4323 203.679 35.5708C203.873 35.7092 203.998 36 204.164 36H230.281C230.447 36 230.613 35.6815 230.751 35.5708C230.889 35.46 230.931 35.0031 230.931 34.7677C230.931 30.7939 230.931 26.7231 230.931 22.7493C230.931 18.7754 231.401 14.1231 230.087 10.1077Z"
+            fill="#1A1A1A"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0_1_237">
+            <rect width="231" height="36" fill="white" />
+          </clipPath>
+        </defs>
+      </svg>
+
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#" class="nav-link">Acerca de</a></li>
+          <li><a href="#" class="nav-link">Proyectos</a></li>
+          <li><a href="#" class="nav-link">Repositorio</a></li>
+          <li><a href="#" class="nav-link">Novedades</a></li>
+          <li><a href="#" class="nav-link">Contacto</a></li>
+        </ul>
+
+        <span class="lang-switch"> <span>EN /</span> ES </span>
+
+        <svg
+          width="33"
+          height="33"
+          viewBox="0 0 33 33"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="menu-icon"
+        >
+          <path
+            d="M20.5 20.5L31.5 31.5"
+            stroke="black"
+            stroke-width="2"
+            stroke-linecap="square"
+          />
+          <path
+            d="M12.5 24C18.8513 24 24 18.8513 24 12.5C24 6.14873 18.8513 1 12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24Z"
+            stroke="black"
+            stroke-width="2"
+          />
+        </svg>
+      </nav>
+    </header>
+
+    <header class="header-mobile-container" aria-label="Mobile header">
+      <div>
+        <img
+          src="/assets/images/boron-header-logo.svg"
+          alt="Boron studio logo"
+        />
+      </div>
+
+      <div class="menu-container">
+        <span class="menu-text">Menu</span>
+        <div class="icon-wrapper">
+          <svg
+            width="26"
+            height="2"
+            viewBox="0 0 26 2"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-primary"
+          >
+            >
+            <path d="M0 1H25.5" stroke="white" stroke-width="2" />
+          </svg>
+          <svg
+            width="13"
+            height="2"
+            viewBox="0 0 13 2"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-secondary"
+          >
+            <path d="M0 1H13" stroke="white" stroke-width="2" />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <nav class="nav-mobile">
+      <div class="nav-mobile-logo-wrapper">
+        <svg
+          width="238"
+          height="37"
+          viewBox="0 0 238 37"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="footer-logo footer-logo-mobile"
+        >
+          <g clip-path="url(#clip0_1_244)">
+            <path
+              d="M59.0476 35.1645C56.9215 34.2417 54.9877 32.9287 53.3466 31.2937C51.7056 29.655 50.386 27.7244 49.4558 25.6014C48.5125 23.3775 48.0277 20.9865 48.0305 18.5714C48.0277 16.1608 48.5125 13.7745 49.4558 11.5556C50.3842 9.43159 51.704 7.50065 53.3466 5.86331C54.9802 4.22291 56.9161 2.91333 59.0476 2.00674C61.2681 1.05918 63.6591 0.574903 66.0739 0.583659C68.4888 0.573294 70.8803 1.05763 73.1004 2.00674C75.2293 2.91801 77.1643 4.22701 78.8013 5.86331C80.4369 7.49749 81.7431 9.42987 82.6494 11.5556C83.5984 13.7728 84.0834 16.1602 84.0746 18.5714C84.0837 20.9871 83.5987 23.3793 82.6494 25.6014C81.7397 27.7253 80.4339 29.657 78.8013 31.2937C77.1575 32.9253 75.2244 34.2379 73.1004 35.1645C70.8784 36.1074 68.4882 36.5915 66.0739 36.5875C63.6597 36.5903 61.2699 36.1063 59.0476 35.1645Z"
+              fill="white"
+            />
+            <path
+              d="M119.435 19.9086C121.983 19.8873 124.42 18.8648 126.219 17.0625C127.153 16.1616 127.889 15.0763 128.38 13.8757C128.87 12.6751 129.105 11.3856 129.069 10.0894C129.077 7.47229 128.053 4.9572 126.219 3.08784C125.344 2.15561 124.293 1.4063 123.126 0.88348C121.959 0.360662 120.699 0.0747911 119.421 0.0424805H106.465C106.223 0.0424805 106.964 0.697059 106.964 0.938982V36.2598C106.964 36.5017 106.223 37.0425 106.465 37.0425H127.986C128.114 37.0425 128.214 36.7721 128.285 36.6582C128.32 36.59 128.339 36.5143 128.339 36.4376C128.339 36.3609 128.32 36.2853 128.285 36.2171L119.435 19.9086Z"
+              fill="white"
+            />
+            <path
+              d="M161.037 35.1644C158.913 34.239 156.979 32.9263 155.336 31.2936C153.695 29.655 152.376 27.7244 151.446 25.6013C150.502 23.3774 150.017 20.9865 150.02 18.5713C150.017 16.1608 150.502 13.7745 151.446 11.5556C152.374 9.43155 153.694 7.50062 155.336 5.86327C156.972 4.22589 158.908 2.91673 161.037 2.0067C163.258 1.05914 165.649 0.574866 168.064 0.583622C170.483 0.574528 172.879 1.05878 175.104 2.0067C177.234 2.91673 179.169 4.22589 180.805 5.86327C182.446 7.49357 183.753 9.42692 184.654 11.5556C185.61 13.7705 186.095 16.1595 186.079 18.5713C186.095 20.9878 185.61 23.3814 184.654 25.6013C183.749 27.7281 182.443 29.6608 180.805 31.2936C179.162 32.9263 177.229 34.239 175.104 35.1644C172.877 36.1063 170.483 36.5903 168.064 36.5875C165.65 36.5903 163.26 36.1063 161.037 35.1644Z"
+              fill="white"
+            />
+            <path
+              d="M14.7085 36.7439H0V0.782715H14.6657C21.6066 0.782715 26.1816 4.625 26.1816 10.2319C26.1717 11.8767 25.6863 13.4836 24.7836 14.8594C23.881 16.2353 22.5997 17.3216 21.0935 17.9877C22.9126 18.612 24.4955 19.7797 25.6274 21.3326C26.7594 22.8854 27.3856 24.7482 27.4215 26.6685C27.4215 32.6739 22.3763 36.7439 14.7085 36.7439Z"
+              fill="white"
+            />
+            <path
+              d="M9.22119 30.1975H13.2405C16.0909 30.1975 17.73 28.6179 17.73 26.526C17.73 24.434 16.0054 22.8544 13.4543 22.8544H9.47781V9.77637H13.5254"
+              stroke="black"
+              stroke-width="0.25"
+              stroke-miterlimit="10"
+            />
+            <path
+              d="M237.06 10.3886C236.402 8.40372 235.295 6.59701 233.824 5.10903C232.359 3.60061 230.571 2.44274 228.594 1.7221C227.071 1.15235 225.459 0.858364 223.833 0.854004C222.189 0.858551 220.558 1.15243 219.016 1.7221C217.026 2.44188 215.224 3.59944 213.743 5.10903C212.272 6.59701 211.165 8.40372 210.507 10.3886C209.082 14.5156 209.652 19.0125 209.652 23.296V35.5771C209.652 35.8048 209.652 36.4167 209.852 36.559C210.051 36.7013 210.179 37.0002 210.35 37.0002H237.259C237.43 37.0002 237.601 36.6728 237.744 36.559C237.886 36.4452 237.929 35.9756 237.929 35.7336C237.929 31.6494 237.929 27.4656 237.929 23.3813C237.929 19.2971 238.413 14.5156 237.06 10.3886Z"
+              fill="white"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_1_244">
+              <rect width="238" height="37" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <span class="nav-mobile-close">Cerrar X</span>
+      </div>
+      <ul>
+        <li><a href="#" class="nav-link">Acerca de</a></li>
+        <li><a href="#" class="nav-link">Proyectos</a></li>
+        <li><a href="#" class="nav-link">Repositorio</a></li>
+        <li><a href="#" class="nav-link">Novedades</a></li>
+        <li><a href="#" class="nav-link">Contacto</a></li>
+      </ul>
+      <div class="nav-mobile-content">
+        <div class="nav-mobile-row">
+          <svg
+            width="33"
+            height="33"
+            viewBox="0 0 33 33"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.5 20.5L31.5 31.5"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="square"
+            />
+            <path
+              d="M12.5 24C18.8513 24 24 18.8513 24 12.5C24 6.14873 18.8513 1 12.5 1C6.14873 1 1 6.14873 1 12.5C1 18.8513 6.14873 24 12.5 24Z"
+              stroke="white"
+              stroke-width="2"
+            />
+          </svg>
+          <span class="lang-switch"> <span>EN /</span> ES </span>
+        </div>
+        <div class="nav-mobile-subscribe">
+          <button
+            type="button"
+            class="footer-subscribe-button footer-subscribe-button-variant"
+          >
+            <span class="footer-subscribe-text"
+              >SUSCRIBITE A NUESTRO NEWSLETER</span
+            >
+            <svg
+              width="38"
+              height="29"
+              viewBox="0 0 38 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="footer-subscribe-icon"
+            >
+              <path
+                d="M22.6826 1L36.1826 14.5L22.6826 28"
+                stroke="black"
+                stroke-width="2"
+              />
+              <path
+                d="M35.2045 14.5H1"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="square"
+              />
+            </svg>
+          </button>
+          <div class="nav-mobile-contact">
+            <div class="nav-mobile-contact-email">
+              <label for="emailInput" class="visually-hidden"
+                >Suscribite a nuestro newsletter</label
+              >
+              <input
+                type="email"
+                id="emailInput"
+                placeholder="info@boronstudio.com"
+                aria-label="Email address"
+                class="footer-email"
+              />
+            </div>
+            <div class="footer-social-icons">
+              <a href="#" aria-label="Youtube">
+                <span class="visually-hidden">Youtube</span>
+                <svg
+                  width="39"
+                  height="28"
+                  viewBox="0 0 39 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="footer-social-icon"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10.19 0C0 0 0 3.00403 0 10.3905V17.6095C0 24.6345 1.44314 28 10.19 28H28.81C36.7101 28 39 26.0326 39 17.6095V10.3905C39 2.61547 38.6149 0 28.81 0H10.19ZM15.5157 8.1547L26.0274 13.8028L15.5157 19.4873V8.1547Z"
+                    fill="#77D7DB"
+                  />
+                </svg>
+              </a>
+              <a href="#" aria-label="Twitter">
+                <span class="visually-hidden">Twitter</span>
+                <svg
+                  width="34"
+                  height="27"
+                  viewBox="0 0 34 27"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="footer-social-icon"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10.6803 26.9999C23.5102 26.9999 30.5306 16.848 30.5306 8.05925C30.5306 7.77364 30.5306 7.48802 30.517 7.20241C31.8775 6.26771 33.0612 5.08642 34 3.74928C32.7483 4.28154 31.4014 4.632 29.9864 4.80076C31.4286 3.9829 32.5306 2.67176 33.0612 1.11393C31.7143 1.87986 30.2177 2.42512 28.6259 2.72371C27.3469 1.42551 25.5374 0.620605 23.5374 0.620605C19.6871 0.620605 16.5578 3.60651 16.5578 7.28041C16.5578 7.79969 16.6259 8.30585 16.7347 8.79916C10.9388 8.52654 5.79591 5.86537 2.35374 1.84096C1.7551 2.82759 1.41496 3.96988 1.41496 5.19019C1.41496 7.50097 2.65307 9.53919 4.51702 10.7335C3.37416 10.6946 2.29932 10.3961 1.36054 9.90274C1.36054 9.9287 1.36054 9.95468 1.36054 9.99362C1.36054 13.2131 3.7687 15.9133 6.95237 16.5235C6.36734 16.6793 5.7551 16.7572 5.11564 16.7572C4.66666 16.7572 4.23129 16.7183 3.80952 16.6404C4.69388 19.2887 7.27891 21.21 10.3265 21.2619C7.93197 23.0534 4.92518 24.118 1.65987 24.118C1.10205 24.118 0.544218 24.092 0 24.0271C3.07483 25.8965 6.74831 26.9999 10.6803 26.9999Z"
+                    fill="#77D7DB"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="welcome-section">
+      <h1 class="welcome-title">Bienvenidos</h1>
+      <p class="welcome-description">
+        Desarrollamos y <span class="welcome-highlight-text">promovemos</span>
+        <span class="welcome-highlight-text">investigación, </span>innovación y
+        divulgación sobre
+        <span class="welcome-underline-text">tecnología digital</span> y
+        aprendizaje, en
+        <span class="welcome-underline-text-2">Uruguay y América Latina</span>
+      </p>
+
+      <section class="design-section scroller">
+        <div class="scroller-inner">
+          <h2 class="design-text">Diseño</h2>
+          <img
+            src="/assets/images/design-img.png"
+            alt="Diseño"
+            class="design-image"
+          />
+          <h2 class="design-text">Diseño</h2>
+          <img
+            src="/assets/images/design-img-2.png"
+            alt="Diseño"
+            class="design-image"
+          />
+        </div>
+      </section>
+
+      <section class="tech-innovation-section scroller" data-direction="right">
+        <div class="scroller-inner">
+          <h2 class="tech-text">Tecnología</h2>
+          <img
+            src="/assets/images/technology-img.png"
+            alt="Tecnología"
+            class="tech-image"
+          />
+          <h2 class="tech-text">Innovación</h2>
+          <img
+            src="/assets/images/technology-img.png"
+            alt="Tecnología"
+            class="tech-image"
+          />
+        </div>
+      </section>
+
+      <section class="uruguay-section scroller">
+        <div class="scroller-inner">
+          <img
+            src="/assets/images/uruguay-img.png"
+            alt="Uruguay"
+            class="uruguay-image"
+          />
+          <h2 class="uruguay-text">Uruguay</h2>
+          <img
+            src="/assets/images/uruguay-img-2.png"
+            alt="Uruguay"
+            class="uruguay-image"
+          />
+          <h2 class="uruguay-text">Uruguay</h2>
+        </div>
+      </section>
+
+      <section class="mission-statement">
+        <p>
+          Somos una organización autónoma que busca resolver desafíos
+          relacionados con el aprendizaje y la mediación de las tecnologías, a
+          través de metodologías innovadoras y un abordaje práctico, social y
+          participativo.
+        </p>
+      </section>
+
+      <section class="approach-section">
+        <div class="approach-container">
+          <div class="approach-text-column">
+            <div class="approach-text-content">
+              <h3 class="approach-title">NUESTRO ENFOQUE</h3>
+              <p class="approach-description">
+                Está orientada a problematizar y aportar ideas y soluciones a la
+                implementación actual y futura de Boron Studio y de otros
+                actores nacionales e internacionales.
+              </p>
+            </div>
+          </div>
+          <div class="approach-image-column">
+            <img
+              src="/assets/images/our-approach.png"
+              alt="Mujer trabajando en una computadora"
+              class="approach-image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="twitter-section">
+        <div class="twitter-container">
+          <div class="twitter-image-column">
+            <img
+              src="/assets/images/twitter-image.png"
+              alt="Grupo de personas en una reunión"
+              class="twitter-image"
+            />
+          </div>
+          <div class="twitter-content-wrapper">
+            <div class="twitter-slider">
+              <div class="twitter-slide">
+                <div class="twitter-content">
+                  <div class="twitter-content-column">
+                    <h3 class="twitter-follow-text">Seguinos en Twitter</h3>
+                    <svg
+                      width="38"
+                      height="31"
+                      viewBox="0 0 38 31"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="twitter-icon"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M11.9368 30.2413C26.2761 30.2413 34.1224 18.8951 34.1224 9.07232C34.1224 8.75312 34.1224 8.43389 34.1072 8.11468C35.6278 7.07002 36.9508 5.74975 38 4.2553C36.601 4.85018 35.0956 5.24186 33.5142 5.43049C35.126 4.5164 36.3577 3.05101 36.9508 1.30991C35.4454 2.16595 33.7727 2.77536 31.9936 3.10907C30.5642 1.65815 28.5418 0.758545 26.3065 0.758545C22.0032 0.758545 18.5058 4.09574 18.5058 8.20185C18.5058 8.78222 18.5818 9.34794 18.7035 9.89929C12.2257 9.59459 6.47779 6.62034 2.63065 2.12247C1.96158 3.22518 1.58143 4.50185 1.58143 5.86572C1.58143 8.44836 2.9652 10.7264 5.04843 12.0612C3.77112 12.0177 2.56982 11.684 1.5206 11.1327C1.5206 11.1617 1.5206 11.1907 1.5206 11.2343C1.5206 14.8326 4.21207 17.8504 7.7703 18.5323C7.11643 18.7064 6.43217 18.7935 5.71748 18.7935C5.21568 18.7935 4.72909 18.7501 4.2577 18.663C5.2461 21.6229 8.13525 23.7702 11.5414 23.8283C8.86514 25.8305 5.50461 27.0203 1.85515 27.0203C1.2317 27.0203 0.608243 26.9913 0 26.9187C3.43657 29.0081 7.54222 30.2413 11.9368 30.2413Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <h4 class="twitter-handle">Boronstudio</h4>
+                    <p class="twitter-username">@Boronstudio</p>
+                    <p class="twitter-tweet">
+                      📌<span class="twitter-highlight-text"
+                        >#OportunidadLaboral</span
+                      >
+                      Llamado abierto para sumarse al equipo de
+                      <span class="twitter-highlight-text">@Boronstudio</span>
+                      master digital.👩‍💻👨‍💻 <br />Más información 👉<span
+                        class="twitter-highlight-text"
+                        >https://bit.ly/2OobIHS</span
+                      >
+                    </p>
+                    <div class="twitter-actions">
+                      <div class="twitter-actions-icon-wrapper">
+                        <div class="svg-container">
+                          <svg
+                            width="39"
+                            height="29"
+                            viewBox="0 0 39 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="twitter-action-icon left-arrow"
+                          >
+                            <path
+                              d="M15.5 1L2 14.5L15.5 28"
+                              stroke="black"
+                              stroke-width="2"
+                            />
+                            <path
+                              d="M2.97807 14.5H37.1826"
+                              stroke="black"
+                              stroke-width="2"
+                              stroke-linecap="square"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="twitter-actions-icon-wrapper">
+                        <div class="svg-container">
+                          <svg
+                            width="38"
+                            height="29"
+                            viewBox="0 0 38 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="twitter-action-icon right-arrow"
+                          >
+                            <path
+                              d="M22.6826 1L36.1826 14.5L22.6826 28"
+                              stroke="black"
+                              stroke-width="2"
+                            />
+                            <path
+                              d="M35.2045 14.5H1"
+                              stroke="black"
+                              stroke-width="2"
+                              stroke-linecap="square"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="twitter-slide">
+                <div class="twitter-content">
+                  <div class="twitter-content-column">
+                    <h3 class="twitter-follow-text">Seguinos en Twitter</h3>
+                    <svg
+                      width="38"
+                      height="31"
+                      viewBox="0 0 38 31"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="twitter-icon"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M11.9368 30.2413C26.2761 30.2413 34.1224 18.8951 34.1224 9.07232C34.1224 8.75312 34.1224 8.43389 34.1072 8.11468C35.6278 7.07002 36.9508 5.74975 38 4.2553C36.601 4.85018 35.0956 5.24186 33.5142 5.43049C35.126 4.5164 36.3577 3.05101 36.9508 1.30991C35.4454 2.16595 33.7727 2.77536 31.9936 3.10907C30.5642 1.65815 28.5418 0.758545 26.3065 0.758545C22.0032 0.758545 18.5058 4.09574 18.5058 8.20185C18.5058 8.78222 18.5818 9.34794 18.7035 9.89929C12.2257 9.59459 6.47779 6.62034 2.63065 2.12247C1.96158 3.22518 1.58143 4.50185 1.58143 5.86572C1.58143 8.44836 2.9652 10.7264 5.04843 12.0612C3.77112 12.0177 2.56982 11.684 1.5206 11.1327C1.5206 11.1617 1.5206 11.1907 1.5206 11.2343C1.5206 14.8326 4.21207 17.8504 7.7703 18.5323C7.11643 18.7064 6.43217 18.7935 5.71748 18.7935C5.21568 18.7935 4.72909 18.7501 4.2577 18.663C5.2461 21.6229 8.13525 23.7702 11.5414 23.8283C8.86514 25.8305 5.50461 27.0203 1.85515 27.0203C1.2317 27.0203 0.608243 26.9913 0 26.9187C3.43657 29.0081 7.54222 30.2413 11.9368 30.2413Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <h4 class="twitter-handle">Boronstudio</h4>
+                    <p class="twitter-username">@Boronstudio</p>
+                    <p class="twitter-tweet">
+                      📌<span class="twitter-highlight-text"
+                        >#OportunidadLaboral</span
+                      >
+                      Llamado abierto para sumarse al equipo de
+                      <span class="twitter-highlight-text">@Boronstudio</span>
+                      master digital.👩‍💻👨‍💻 <br />Más información 👉<span
+                        class="twitter-highlight-text"
+                        >https://bit.ly/2OobIHS</span
+                      >
+                    </p>
+                    <div class="twitter-actions">
+                      <div class="twitter-actions-icon-wrapper">
+                        <div class="svg-container">
+                          <svg
+                            width="39"
+                            height="29"
+                            viewBox="0 0 39 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="twitter-action-icon left-arrow"
+                          >
+                            <path
+                              d="M15.5 1L2 14.5L15.5 28"
+                              stroke="black"
+                              stroke-width="2"
+                            />
+                            <path
+                              d="M2.97807 14.5H37.1826"
+                              stroke="black"
+                              stroke-width="2"
+                              stroke-linecap="square"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="twitter-actions-icon-wrapper">
+                        <div class="svg-container">
+                          <svg
+                            width="38"
+                            height="29"
+                            viewBox="0 0 38 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="twitter-action-icon right-arrow"
+                          >
+                            <path
+                              d="M22.6826 1L36.1826 14.5L22.6826 28"
+                              stroke="black"
+                              stroke-width="2"
+                            />
+                            <path
+                              d="M35.2045 14.5H1"
+                              stroke="black"
+                              stroke-width="2"
+                              stroke-linecap="square"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="twitter-slide">
+                <div class="twitter-content">
+                  <div class="twitter-content-column">
+                    <h3 class="twitter-follow-text">Seguinos en Twitter</h3>
+                    <svg
+                      width="38"
+                      height="31"
+                      viewBox="0 0 38 31"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="twitter-icon"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M11.9368 30.2413C26.2761 30.2413 34.1224 18.8951 34.1224 9.07232C34.1224 8.75312 34.1224 8.43389 34.1072 8.11468C35.6278 7.07002 36.9508 5.74975 38 4.2553C36.601 4.85018 35.0956 5.24186 33.5142 5.43049C35.126 4.5164 36.3577 3.05101 36.9508 1.30991C35.4454 2.16595 33.7727 2.77536 31.9936 3.10907C30.5642 1.65815 28.5418 0.758545 26.3065 0.758545C22.0032 0.758545 18.5058 4.09574 18.5058 8.20185C18.5058 8.78222 18.5818 9.34794 18.7035 9.89929C12.2257 9.59459 6.47779 6.62034 2.63065 2.12247C1.96158 3.22518 1.58143 4.50185 1.58143 5.86572C1.58143 8.44836 2.9652 10.7264 5.04843 12.0612C3.77112 12.0177 2.56982 11.684 1.5206 11.1327C1.5206 11.1617 1.5206 11.1907 1.5206 11.2343C1.5206 14.8326 4.21207 17.8504 7.7703 18.5323C7.11643 18.7064 6.43217 18.7935 5.71748 18.7935C5.21568 18.7935 4.72909 18.7501 4.2577 18.663C5.2461 21.6229 8.13525 23.7702 11.5414 23.8283C8.86514 25.8305 5.50461 27.0203 1.85515 27.0203C1.2317 27.0203 0.608243 26.9913 0 26.9187C3.43657 29.0081 7.54222 30.2413 11.9368 30.2413Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <h4 class="twitter-handle">Boronstudio</h4>
+                    <p class="twitter-username">@Boronstudio</p>
+                    <p class="twitter-tweet">
+                      📌<span class="twitter-highlight-text"
+                        >#OportunidadLaboral</span
+                      >
+                      Llamado abierto para sumarse al equipo de
+                      <span class="twitter-highlight-text">@Boronstudio</span>
+                      master digital.👩‍💻👨‍💻 <br />Más información 👉<span
+                        class="twitter-highlight-text"
+                        >https://bit.ly/2OobIHS</span
+                      >
+                    </p>
+                    <div class="twitter-actions">
+                      <div class="twitter-actions-icon-wrapper">
+                        <div class="svg-container">
+                          <svg
+                            width="39"
+                            height="29"
+                            viewBox="0 0 39 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="twitter-action-icon left-arrow"
+                          >
+                            <path
+                              d="M15.5 1L2 14.5L15.5 28"
+                              stroke="black"
+                              stroke-width="2"
+                            />
+                            <path
+                              d="M2.97807 14.5H37.1826"
+                              stroke="black"
+                              stroke-width="2"
+                              stroke-linecap="square"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="twitter-actions-icon-wrapper">
+                        <div class="svg-container">
+                          <svg
+                            width="38"
+                            height="29"
+                            viewBox="0 0 38 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="twitter-action-icon right-arrow"
+                          >
+                            <path
+                              d="M22.6826 1L36.1826 14.5L22.6826 28"
+                              stroke="black"
+                              stroke-width="2"
+                            />
+                            <path
+                              d="M35.2045 14.5H1"
+                              stroke="black"
+                              stroke-width="2"
+                              stroke-linecap="square"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="twitter-slider-nav"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="repository-section">
+        <h2 class="repository-title">Repositorio</h2>
+        <p class="repository-subtitle">
+          <strong>Repositorio institucional de Boron Studio</strong>
+        </p>
+      </section>
+
+      <section class="repository-container">
+        <div class="repository-divider"></div>
+
+        <div class="repository-filter">
+          <img src="/assets/images/repository-img-1.png" alt="Autor" />
+          <span>Autor</span>
+          <div class="repository-icon-wrapper">
+            <svg
+              width="38"
+              height="29"
+              viewBox="0 0 38 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="filter-icon"
+            >
+              <path
+                d="M22.6826 1L36.1826 14.5L22.6826 28"
+                stroke="black"
+                stroke-width="2"
+              />
+              <path
+                d="M35.2045 14.5H1"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="square"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="repository-divider"></div>
+
+        <div class="repository-filter">
+          <img src="/assets/images/repository-img-1.png" alt="Título" />
+          <span>Título</span>
+          <div class="repository-icon-wrapper">
+            <svg
+              width="38"
+              height="29"
+              viewBox="0 0 38 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="filter-icon"
+            >
+              <path
+                d="M22.6826 1L36.1826 14.5L22.6826 28"
+                stroke="black"
+                stroke-width="2"
+              />
+              <path
+                d="M35.2045 14.5H1"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="square"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="repository-divider"></div>
+
+        <div class="repository-filter">
+          <img
+            src="/assets/images/repository-img-1.png"
+            alt="Líneas de navegación"
+          />
+          <span>Líneas de navegación</span>
+          <div class="repository-icon-wrapper">
+            <svg
+              width="38"
+              height="29"
+              viewBox="0 0 38 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="filter-icon"
+            >
+              <path
+                d="M22.6826 1L36.1826 14.5L22.6826 28"
+                stroke="black"
+                stroke-width="2"
+              />
+              <path
+                d="M35.2045 14.5H1"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="square"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="repository-divider"></div>
+
+        <div class="repository-filter">
+          <img src="/assets/images/repository-img-1.png" alt="Descripciones" />
+          <span>Descripciones</span>
+          <div class="repository-icon-wrapper">
+            <svg
+              width="38"
+              height="29"
+              viewBox="0 0 38 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="filter-icon"
+            >
+              <path
+                d="M22.6826 1L36.1826 14.5L22.6826 28"
+                stroke="black"
+                stroke-width="2"
+              />
+              <path
+                d="M35.2045 14.5H1"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="square"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="repository-divider"></div>
+      </section>
+
+      <h2 class="news-section">Novedades</h2>
+
+      <section class="news-container">
+        <div class="news-grid">
+          <article class="news-item">
+            <div class="news-content news-content-first">
+              <div class="news-tag">
+                <span class="news-tag-text">WEBINAR</span>
+                <span class="news-tag-icon">+</span>
+              </div>
+              <h3 class="news-title">
+                Boron Studio invita a webinar sobre educación híbrida
+              </h3>
+              <div class="news-image-column">
+                <img
+                  src="assets/images/news-1.png"
+                  alt="News Image"
+                  class="news-image"
+                />
+              </div>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="news-content news-content-second">
+              <div class="news-tag">
+                <span class="news-tag-text">EVENTO</span>
+                <span class="news-tag-icon">+</span>
+              </div>
+              <h3 class="news-title">
+                Boron Studio invita a webinar sobre educación híbrida
+              </h3>
+              <div class="news-image-column">
+                <img
+                  src="assets/images/news-2.png"
+                  alt="News Image"
+                  class="news-image"
+                />
+              </div>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="news-content news-content-third">
+              <div class="news-tag">
+                <span class="news-tag-text">EVENTO</span>
+                <span class="news-tag-icon">+</span>
+              </div>
+              <h3 class="news-title">
+                Boron Studio presenta experiencia de educación a distancia en
+                México
+              </h3>
+              <div class="news-image-column">
+                <img
+                  src="assets/images/news-3.png"
+                  alt="News Image"
+                  class="news-image"
+                />
+              </div>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="news-content news-content-fourth">
+              <div class="news-tag">
+                <span class="news-tag-text">PUBLICACIÓN</span>
+                <span class="news-tag-icon">+</span>
+              </div>
+              <h3 class="news-title">
+                Publicación del libro "Tecnología: Lo que puede y no puede hacer
+                por la educación"
+              </h3>
+              <div class="news-image-column">
+                <img
+                  src="assets/images/news-4.png"
+                  alt="News Image"
+                  class="news-image"
+                />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo-container">
+          <svg
+            width="238"
+            height="37"
+            viewBox="0 0 238 37"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="footer-logo"
+          >
+            <g clip-path="url(#clip0_1_244)">
+              <path
+                d="M59.0476 35.1645C56.9215 34.2417 54.9877 32.9287 53.3466 31.2937C51.7056 29.655 50.386 27.7244 49.4558 25.6014C48.5125 23.3775 48.0277 20.9865 48.0305 18.5714C48.0277 16.1608 48.5125 13.7745 49.4558 11.5556C50.3842 9.43159 51.704 7.50065 53.3466 5.86331C54.9802 4.22291 56.9161 2.91333 59.0476 2.00674C61.2681 1.05918 63.6591 0.574903 66.0739 0.583659C68.4888 0.573294 70.8803 1.05763 73.1004 2.00674C75.2293 2.91801 77.1643 4.22701 78.8013 5.86331C80.4369 7.49749 81.7431 9.42987 82.6494 11.5556C83.5984 13.7728 84.0834 16.1602 84.0746 18.5714C84.0837 20.9871 83.5987 23.3793 82.6494 25.6014C81.7397 27.7253 80.4339 29.657 78.8013 31.2937C77.1575 32.9253 75.2244 34.2379 73.1004 35.1645C70.8784 36.1074 68.4882 36.5915 66.0739 36.5875C63.6597 36.5903 61.2699 36.1063 59.0476 35.1645Z"
+                fill="white"
+              />
+              <path
+                d="M119.435 19.9086C121.983 19.8873 124.42 18.8648 126.219 17.0625C127.153 16.1616 127.889 15.0763 128.38 13.8757C128.87 12.6751 129.105 11.3856 129.069 10.0894C129.077 7.47229 128.053 4.9572 126.219 3.08784C125.344 2.15561 124.293 1.4063 123.126 0.88348C121.959 0.360662 120.699 0.0747911 119.421 0.0424805H106.465C106.223 0.0424805 106.964 0.697059 106.964 0.938982V36.2598C106.964 36.5017 106.223 37.0425 106.465 37.0425H127.986C128.114 37.0425 128.214 36.7721 128.285 36.6582C128.32 36.59 128.339 36.5143 128.339 36.4376C128.339 36.3609 128.32 36.2853 128.285 36.2171L119.435 19.9086Z"
+                fill="white"
+              />
+              <path
+                d="M161.037 35.1644C158.913 34.239 156.979 32.9263 155.336 31.2936C153.695 29.655 152.376 27.7244 151.446 25.6013C150.502 23.3774 150.017 20.9865 150.02 18.5713C150.017 16.1608 150.502 13.7745 151.446 11.5556C152.374 9.43155 153.694 7.50062 155.336 5.86327C156.972 4.22589 158.908 2.91673 161.037 2.0067C163.258 1.05914 165.649 0.574866 168.064 0.583622C170.483 0.574528 172.879 1.05878 175.104 2.0067C177.234 2.91673 179.169 4.22589 180.805 5.86327C182.446 7.49357 183.753 9.42692 184.654 11.5556C185.61 13.7705 186.095 16.1595 186.079 18.5713C186.095 20.9878 185.61 23.3814 184.654 25.6013C183.749 27.7281 182.443 29.6608 180.805 31.2936C179.162 32.9263 177.229 34.239 175.104 35.1644C172.877 36.1063 170.483 36.5903 168.064 36.5875C165.65 36.5903 163.26 36.1063 161.037 35.1644Z"
+                fill="white"
+              />
+              <path
+                d="M14.7085 36.7439H0V0.782715H14.6657C21.6066 0.782715 26.1816 4.625 26.1816 10.2319C26.1717 11.8767 25.6863 13.4836 24.7836 14.8594C23.881 16.2353 22.5997 17.3216 21.0935 17.9877C22.9126 18.612 24.4955 19.7797 25.6274 21.3326C26.7594 22.8854 27.3856 24.7482 27.4215 26.6685C27.4215 32.6739 22.3763 36.7439 14.7085 36.7439Z"
+                fill="white"
+              />
+              <path
+                d="M9.22119 30.1975H13.2405C16.0909 30.1975 17.73 28.6179 17.73 26.526C17.73 24.434 16.0054 22.8544 13.4543 22.8544H9.47781V9.77637H13.5254"
+                stroke="black"
+                stroke-width="0.25"
+                stroke-miterlimit="10"
+              />
+              <path
+                d="M237.06 10.3886C236.402 8.40372 235.295 6.59701 233.824 5.10903C232.359 3.60061 230.571 2.44274 228.594 1.7221C227.071 1.15235 225.459 0.858364 223.833 0.854004C222.189 0.858551 220.558 1.15243 219.016 1.7221C217.026 2.44188 215.224 3.59944 213.743 5.10903C212.272 6.59701 211.165 8.40372 210.507 10.3886C209.082 14.5156 209.652 19.0125 209.652 23.296V35.5771C209.652 35.8048 209.652 36.4167 209.852 36.559C210.051 36.7013 210.179 37.0002 210.35 37.0002H237.259C237.43 37.0002 237.601 36.6728 237.744 36.559C237.886 36.4452 237.929 35.9756 237.929 35.7336C237.929 31.6494 237.929 27.4656 237.929 23.3813C237.929 19.2971 238.413 14.5156 237.06 10.3886Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_1_244">
+                <rect width="238" height="37" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="footer-content-container">
+          <div>
+            <div class="footer-text-content">
+              <h3 class="footer-newsletter-text">
+                Enterate de las últimas novedades
+              </h3>
+              <div class="footer-links-column">
+                <nav class="footer-links">
+                  <ul class="footer-nav-links">
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#">Repositorio</a></li>
+                    <li><a href="#">Novedades</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Líneas de investigación</a></li>
+                    <li><a href="#">Información financiera</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div>
+              <form class="footer-form">
+                <button type="submit" class="footer-subscribe-button">
+                  <span class="footer-subscribe-text"
+                    >SUSCRIBITE A NUESTRO NEWSLETER</span
+                  >
+                  <svg
+                    width="38"
+                    height="29"
+                    viewBox="0 0 38 29"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="footer-subscribe-icon"
+                  >
+                    <path
+                      d="M22.6826 1L36.1826 14.5L22.6826 28"
+                      stroke="black"
+                      stroke-width="2"
+                    />
+                    <path
+                      d="M35.2045 14.5H1"
+                      stroke="black"
+                      stroke-width="2"
+                      stroke-linecap="square"
+                    />
+                  </svg>
+                </button>
+                <div class="footer-contact-wrapper">
+                  <label for="emailInput" class="visually-hidden"
+                    >Suscribite a nuestro newsletter</label
+                  >
+                  <input
+                    type="email"
+                    id="emailInput"
+                    placeholder="info@boronstudio.com"
+                    aria-label="Email address"
+                    class="footer-email"
+                  />
+                  <div class="footer-social-icons">
+                    <a href="#" aria-label="Youtube">
+                      <span class="visually-hidden">Youtube</span>
+                      <svg
+                        width="39"
+                        height="28"
+                        viewBox="0 0 39 28"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="footer-social-icon"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M10.19 0C0 0 0 3.00403 0 10.3905V17.6095C0 24.6345 1.44314 28 10.19 28H28.81C36.7101 28 39 26.0326 39 17.6095V10.3905C39 2.61547 38.6149 0 28.81 0H10.19ZM15.5157 8.1547L26.0274 13.8028L15.5157 19.4873V8.1547Z"
+                          fill="#77D7DB"
+                        />
+                      </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                      <span class="visually-hidden">Twitter</span>
+                      <svg
+                        width="34"
+                        height="27"
+                        viewBox="0 0 34 27"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="footer-social-icon"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M10.6803 26.9999C23.5102 26.9999 30.5306 16.848 30.5306 8.05925C30.5306 7.77364 30.5306 7.48802 30.517 7.20241C31.8775 6.26771 33.0612 5.08642 34 3.74928C32.7483 4.28154 31.4014 4.632 29.9864 4.80076C31.4286 3.9829 32.5306 2.67176 33.0612 1.11393C31.7143 1.87986 30.2177 2.42512 28.6259 2.72371C27.3469 1.42551 25.5374 0.620605 23.5374 0.620605C19.6871 0.620605 16.5578 3.60651 16.5578 7.28041C16.5578 7.79969 16.6259 8.30585 16.7347 8.79916C10.9388 8.52654 5.79591 5.86537 2.35374 1.84096C1.7551 2.82759 1.41496 3.96988 1.41496 5.19019C1.41496 7.50097 2.65307 9.53919 4.51702 10.7335C3.37416 10.6946 2.29932 10.3961 1.36054 9.90274C1.36054 9.9287 1.36054 9.95468 1.36054 9.99362C1.36054 13.2131 3.7687 15.9133 6.95237 16.5235C6.36734 16.6793 5.7551 16.7572 5.11564 16.7572C4.66666 16.7572 4.23129 16.7183 3.80952 16.6404C4.69388 19.2887 7.27891 21.21 10.3265 21.2619C7.93197 23.0534 4.92518 24.118 1.65987 24.118C1.10205 24.118 0.544218 24.092 0 24.0271C3.07483 25.8965 6.74831 26.9999 10.6803 26.9999Z"
+                          fill="#77D7DB"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright-wrapper">
+        <p class="footer-copyright">
+          ©2024 Todos los derechos reservados. Boron studio
+        </p>
+        <p class="footer-brand">By Boron Studio</p>
+      </div>
+    </footer>
+  </body>
+</html>
